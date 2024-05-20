@@ -9,7 +9,7 @@ AWS credentials configured with appropriate permissions to manage S3 buckets
 
 ## Usage
 
-1. Run the script: `python script.py`
+1. Run the script: `python delete_empty_s3.py`
 2. The script will iterate through all available AWS regions
 3. For each region, it will list all S3 buckets
 4. Empty buckets will be detected and deleted

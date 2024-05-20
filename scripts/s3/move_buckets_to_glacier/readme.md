@@ -12,7 +12,7 @@ This script is designed to move all S3 buckets in all available AWS regions to t
 1. Open the script in a text editor.
 2. Update the `excluded_buckets` list with the names of the buckets you want to exclude from the storage class change.
 3. Save the script.
-4. Run the script: `python script.py`
+4. Run the script: `python move_buckets_to_glacier.py`
 5. The script will iterate through all available AWS regions and buckets.
 6. For each bucket (excluding the specified ones), the script will:
     - Enable versioning for the bucket
