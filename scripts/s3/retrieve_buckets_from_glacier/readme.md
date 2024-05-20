@@ -13,7 +13,7 @@ This bash script is designed to restore objects from Amazon S3 Glacier to Amazon
 2. Save the script and make it executable
 `chmod +x glacier_retrieval.sh`
 3. Run the script
-`./restore_script.sh`
+`./glacier_retrieval.sh`
 
 ## How it works
 The script will list all objects in the specified S3 bucket (including those in Glacier storage) and initiate a restore job for each object, requesting retrieval to the S3 standard storage class with a 1-day temporary restore period.
